@@ -1,0 +1,37 @@
+[
+    {
+        "name": "vitalis/hello-composer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/agavitalis/hello-composer.git",
+            "reference": "3552a8b7ccd179bc39c4fe213ba0cedac90a2a42"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/agavitalis/hello-composer/zipball/3552a8b7ccd179bc39c4fe213ba0cedac90a2a42",
+            "reference": "3552a8b7ccd179bc39c4fe213ba0cedac90a2a42",
+            "shasum": ""
+        },
+        "time": "2019-01-20T21:22:16+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "vitalis\\HelloWorld\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ogbonna Vitalis",
+                "email": "agavitalisogbonna@gmail.com"
+            }
+        ],
+        "description": "A simple hello world composer package"
+    }
+]

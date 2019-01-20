@@ -1,0 +1,16 @@
+{
+    "name": "vitalis/test-hello-composer",
+    "description": "A test package to test my published hello-composer package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ogbonna Vitalis",
+            "email": "agavitalisogbonna@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vitalis/hello-composer": "dev-master"
+    }
+}

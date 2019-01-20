@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "81ca07394c1f77c9af4ee0ab5c567260",
+    "packages": [
+        {
+            "name": "vitalis/hello-composer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agavitalis/hello-composer.git",
+                "reference": "3552a8b7ccd179bc39c4fe213ba0cedac90a2a42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agavitalis/hello-composer/zipball/3552a8b7ccd179bc39c4fe213ba0cedac90a2a42",
+                "reference": "3552a8b7ccd179bc39c4fe213ba0cedac90a2a42",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "vitalis\\HelloWorld\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ogbonna Vitalis",
+                    "email": "agavitalisogbonna@gmail.com"
+                }
+            ],
+            "description": "A simple hello world composer package",
+            "time": "2019-01-20T21:22:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "vitalis/hello-composer": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
